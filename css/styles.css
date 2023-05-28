@@ -70,7 +70,7 @@ img {
     position: relative;
     color: var(--secondary-ocean-color);
     padding: 24px 0;
-    color: var(--title-text-color);
+    /* color: var(--title-text-color); */
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link.menu:hover ,
@@ -90,7 +90,6 @@ img {
     margin-right: 332px;
 }
 .site-nav .link {
-    color: var(--secondary-ocean-color);
     /* color: var(--title-text-color); */
     font-weight: 500;
     font-size: 16px;
