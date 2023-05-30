@@ -29,7 +29,7 @@ h1,h2,h3,ul,p {
 .container {
     width: 1158px;
     margin: 0 auto;
-    padding: 0 15px
+    padding: 0 15px;
 }
 img {
     display: block;
@@ -189,20 +189,18 @@ img {
 .section.features {
     margin: 0 auto;
     padding: 120px 0;
-    width: 1128px;
+    /* width: 1128px; */
 }
 .main.list {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
-    margin-bottom: 120px;
 }
 .main-list {
     width: calc((100% - 72px) / 4);
 }
 .icon-ftr {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     max-width: 264px;
